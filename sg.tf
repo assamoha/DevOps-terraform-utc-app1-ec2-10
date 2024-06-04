@@ -1,5 +1,5 @@
-# Create Web Security Group
-/*resource "aws_security_group" "lamp-sg" {
+/*# Create Web Security Group
+resource "aws_security_group" "lamp-sg" {
     name        = "webserver-sg"
     description = "Allow ssh"
     vpc_id      = aws_vpc.utc-app1.id
